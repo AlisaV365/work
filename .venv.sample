@@ -1,0 +1,10 @@
+SECRET_KEY='django-insecure-0g!den#&f*+r$4e-5-ueg+jze+&hw0ys6*=7z-#!-o!fc3=s6j'
+
+DB_ENGINE='django.db.backends.postgresql'
+DB_NAME='postgres'
+DB_USER='postgres'
+DB_PASSWORD='cxz3t55'
+DB_HOST='127.0.0.1'
+DB_PORT='5432'
+
+TELEGRAM_TOKEN=os.getenv('BOT_TOKEN')
